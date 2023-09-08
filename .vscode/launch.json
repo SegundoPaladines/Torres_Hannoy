@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Torres De Hanoi_5721b55b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "vmArgs": "--module-path ${env:PATH_TO_FX} --add-modules javafx.controls",
+            "mainClass": "${file}"
+        }
+    ]
+}
